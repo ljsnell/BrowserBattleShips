@@ -1,13 +1,12 @@
 
 // Filename - App.js
 import './App.css';
- 
-// Example of a data array that
-// you might receive from an API
+import BattleShip from './BattleShip';
+
 const data = [
     { range: "Extreme", occupant: ""},
     { range: "Long", occupant: ""},
-    { range: "Medium-Long", occupant: ""},
+    { range: "Medium-Long", occupant: <BattleShip name="Ol' Wheez"/>},
     { range: "Medium", occupant: ""},
     { range: "Short", occupant: ""},
 ]
