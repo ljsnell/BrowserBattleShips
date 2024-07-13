@@ -1,5 +1,19 @@
 export default function BattleShip(bshipProps) {
     return (
-        <h1>Hi! {bshipProps.name}</h1>
+        <table>
+            <tr>
+                <td>Country: {bshipProps.country}</td>
+                <td>Name: {bshipProps.name}</td>
+            </tr>
+                <td>Type: {bshipProps.name}</td>
+                <td>Guns: {bshipProps.name}</td>
+                <td>Broadside: {bshipProps.name}</td>
+                <td>Bow: {bshipProps.name}</td>
+                <td>Stern: {bshipProps.name}</td>
+                <td>Armor: {bshipProps.name}</td>
+                <td>Speed: {bshipProps.name}</td>
+                <td>Turrets: {bshipProps.name}</td>
+                <td>Flotation: {bshipProps.name}</td>
+        </table>
     )
 }

@@ -6,7 +6,7 @@ import BattleShip from './BattleShip';
 const data = [
     { range: "Extreme", occupant: ""},
     { range: "Long", occupant: ""},
-    { range: "Medium-Long", occupant: <BattleShip name="Ol' Wheez"/>},
+    { range: "Medium-Long", occupant: <BattleShip name="Ol' Wheez" country="🏴"/>},
     { range: "Medium", occupant: ""},
     { range: "Short", occupant: ""},
 ]
