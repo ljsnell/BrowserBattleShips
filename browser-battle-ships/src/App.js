@@ -6,6 +6,7 @@ import React from 'react';
 import {
     Button
 } from 'react-native';
+import { pickAction } from './ShipAI';
 
 const data = [
     { range: "Extreme", occupant: "" },
@@ -45,6 +46,7 @@ function App() {
                     <Button                        
                         title="Withdraw"                    
                         color="blue"
+                        onPress={pickAction}
                     />
                 </tr>
             </table>

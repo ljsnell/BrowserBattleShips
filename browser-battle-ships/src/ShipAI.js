@@ -1,4 +1,4 @@
-import * as constants from Constants
+import { WITHDRAW, OFFER_BROADSIDE, CLOSE } from './Constants'
 
 export function pickAction() {
     const min = 1;
@@ -7,12 +7,12 @@ export function pickAction() {
     console.log('rand:' + rand)
 
     if (rand > 0 && rand < 3) {
-        return constants.CLOSE
+        return CLOSE
     }
     else if (rand > 2 && rand < 6) {
-        return constants.OFFER_BROADSIDE
+        return OFFER_BROADSIDE
     }
     else {
-        return constants.WITHDRAW
+        return WITHDRAW
     }
 }
