@@ -13,7 +13,7 @@ export default function BattleShip(bshipProps) {
                 <td>Armor: {bshipProps.name}</td>
                 <td>Speed: {bshipProps.name}</td>
                 <td>Turrets: {bshipProps.name}</td>
-                <td>Flotation: {bshipProps.name}</td>
+                <td>Flotation: {bshipProps.name}</td>                
         </table>
     )
 }

@@ -10,7 +10,7 @@ import {
 const data = [
     { range: "Extreme", occupant: "" },
     { range: "Long", occupant: "" },
-    { range: "Medium-Long", occupant: <BattleShip name="Ol' Wheez" country="🏴" /> },
+    { range: "Medium-Long", occupant: <BattleShip name="Ol' Wheez" country="🏴" previousAction="" /> },
     { range: "Medium", occupant: "" },
     { range: "Short", occupant: "" },
 ]
