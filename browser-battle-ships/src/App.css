@@ -9,12 +9,12 @@
 
 table {
 	border: 2px solid rgb(0, 0, 0);
-  width: 75%;
-  height: 55%;
+  	width: 75%;
+  	height: 55%;
 }
 
 td {
-  overflow: hidden;
+	overflow: hidden;
 	text-align: center;
-  border: 1px solid black;
+  	border: 1px solid black;
 }
