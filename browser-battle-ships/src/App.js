@@ -58,10 +58,13 @@ function App() {
 }
 
 function moveShip(movementInstruction, shipIndex, shipData, setShipIndex) {
-    emptyOcean[shipIndex].occupant = ""
-    setShipIndex(shipIndex + movementInstruction)
-    emptyOcean[shipIndex + movementInstruction].occupant = shipData
-    
+    if (shipIndex < 4) {
+        emptyOcean[shipIndex].occupant = ""
+        setShipIndex(shipIndex + movementInstruction)
+        emptyOcean[shipIndex + movementInstruction].occupant = shipData
+    }
+
+
 }
 
 export default App;
